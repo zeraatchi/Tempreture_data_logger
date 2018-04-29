@@ -1,0 +1,25 @@
+RAM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+__ds18b20_scratch_pad                                             0x0260       9
+ds18b20_rom_codes                                                 0x0269      72
+string                                                            0x02B1      56
+string2                                                           0x02E9      12
+tmpreture                                                         0x02F5       4
+rx_buffer                                                         0x02F9      16
+_seed                                                             0x0309       4
+
+EEPROM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                          Register  Size
+--------------------------------------------------------------------------------
+ds18b20_devices                                                   R5           1
+code                                                              R4           1
+cou                                                               R7           1
+dt                                                                R6           1
+rx_wr_index                                                       R9           1
+rx_rd_index                                                       R8           1
+rx_counter                                                        R11          1

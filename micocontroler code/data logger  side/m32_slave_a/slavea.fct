@@ -1,0 +1,6 @@
+main DSTACK_USAGE:0 DSTACK_LEVEL:0 FILE:"slavea.c" LINE:152
+usart_rx_isr DSTACK_USAGE:14 DSTACK_LEVEL:14 FILE:"slavea.c" LINE:106
+rd_tmp_all DSTACK_USAGE:0 DSTACK_LEVEL:14 FILE:"slavea.c" LINE:246
+ftoa DSTACK_USAGE:13 DSTACK_LEVEL:27 FILE:"C:\cvavreval\lib\stdlib.lib" LINE:933
+floor DSTACK_USAGE:4 DSTACK_LEVEL:31 FILE:"C:\cvavreval\lib\math.lib" LINE:659
+ftrunc DSTACK_USAGE:4 DSTACK_LEVEL:35 FILE:"C:\cvavreval\lib\math.lib" LINE:544

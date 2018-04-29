@@ -1,0 +1,24 @@
+RAM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+Temp_Addrs                                                        0x0260       5
+payload                                                           0x0265      33
+rx_buffer                                                         0x0286       8
+
+EEPROM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                          Register  Size
+--------------------------------------------------------------------------------
+Command_Reg                                                       R5           1
+Status_Reg                                                        R4           1
+State                                                             R7           1
+Opr_Mode                                                          R6           1
+send_actived                                                      R2.0      1bit
+rx_wr_index                                                       R9           1
+rx_rd_index                                                       R8           1
+rx_counter                                                        R11          1
+rx_buffer_overflow                                                R2.1      1bit
+j                                                                 R12,R13      2
